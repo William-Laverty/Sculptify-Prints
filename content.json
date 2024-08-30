@@ -1,0 +1,53 @@
+{
+    "siteName": "Sculptify Prints",
+    "header": {
+      "navItems": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About us", "href": "#about" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Contact", "href": "#contact" }
+      ],
+      "ctaButton": "Get Started"
+    },
+    "hero": {
+      "title": "3D Printer Project",
+      "description": "Transform your digital designs into reality with our professional 3D printing service. Fast, accurate, and affordable.",
+      "ctaButton": "Start Printing"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "We're passionate about bringing your ideas to life through cutting-edge 3D printing technology. Our team of experts is dedicated to delivering high-quality prints for prototypes, custom parts, and creative projects."
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Rapid Prototyping",
+          "description": "Quick turnaround for your product development needs.",
+          "image": "assets/prototype.svg"
+        },
+        {
+          "title": "Custom Parts",
+          "description": "Tailored solutions for unique applications.",
+          "image": "assets/custom-parts.svg"
+        },
+        {
+          "title": "3D Modeling",
+          "description": "Expert design services to bring your ideas to life.",
+          "image": "assets/3d-modeling.svg"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "formPlaceholders": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Your Message"
+      },
+      "submitButton": "Send Message"
+    },
+    "footer": {
+      "copyright": "© 2024 Sculptify Prints · William Laverty"
+    }
+  }

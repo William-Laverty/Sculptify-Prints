@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title"></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo" id="site-name">
+            <img src="assets/logo.png" alt="Logo">
+        </a>
+        <nav>
+            <ul id="nav-items"></ul>
+        </nav>
+        <button class="cta-button" id="header-cta"></button>
+    </header>    
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 id="hero-title"></h1>
+                <p id="hero-description"></p>
+                <button class="cta-button" id="hero-cta"></button>
+            </div>
+            <div class="hero-image">
+                <img src="assets/3d-printer.svg" alt="3D Printer Illustration">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <section id="services" class="services">
+                <h2 id="services-title"></h2>
+                <div class="service-grid" id="services-grid"></div>
+            </section>
+        <p id="about-description"></p>
+    </section>
+
+
+        <section class="pricing-section">
+            <h2>Pricing Options</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Standard</h3>
+                    <p class="price">$19.99</p>
+                    <ul class="features">
+                        <li>Standard Quality</li>
+                        <li>Delivery in 5-7 business days</li>
+                    </ul>
+                    <button class="cta-button">Select</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Premium</h3>
+                    <p class="price">$29.99</p>
+                    <ul class="features">
+                        <li>High Quality</li>
+                        <li>Delivery in 3-5 business days</li>
+                    </ul>
+                    <button class="cta-button">Select</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Express</h3>
+                    <p class="price">$39.99</p>
+                    <ul class="features">
+                        <li>Fastest Delivery</li>
+                        <li>Delivery in 1-2 business days</li>
+                    </ul>
+                    <button class="cta-button">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 id="contact-title"></h2>
+            <form id="contact-form"></form>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-copyright"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

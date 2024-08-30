@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sculptify Prints - Get Started</title>
+    <link rel="stylesheet" href="get-started-styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Sculptify Prints</a>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About us</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Get Your 3D Print</h1>
+                <p>Upload your design and let us bring it to life.</p>
+            </div>
+        </section>
+
+        <section class="upload-section">
+            <h2>Upload Your 3D Model</h2>
+            <div class="upload-container">
+                <input type="file" id="file-input" accept=".stl,.obj,.gltf,.glb" required>
+                <button id="upload-button">Upload</button>
+            </div>
+            <div id="model-viewer-container"></div>
+        </section>
+
+        
+
+        <section class="payment-section">
+            <h2>Proceed to Payment</h2>
+            <form id="payment-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Address" required>
+                <input type="text" placeholder="Card Number" required>
+                <input type="text" placeholder="Expiration Date" required>
+                <input type="text" placeholder="CVC" required>
+                <button type="submit" class="cta-button">Pay Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sculptify Prints</p>
+    </footer>
+
+    <script src="https://unpkg.com/three/build/three.min.js"></script>
+    <script src="https://unpkg.com/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://unpkg.com/three/examples/js/loaders/STLLoader.js"></script>
+    <script src="https://unpkg.com/three/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://unpkg.com/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="get-started-script.js"></script>
+</body>
+</html>
